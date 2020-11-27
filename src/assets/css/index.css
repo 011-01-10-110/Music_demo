@@ -1,0 +1,37 @@
+.index .navTitle {
+    height: 1.68rem;
+    width: 100%;
+    box-sizing: border-box;
+    background: #d43c33;
+    color: #fff;
+    line-height: 1.68rem;
+    padding-left: 10px;
+}
+
+.index .navBar {
+    background: #fff;
+    height: 0.8rem;
+    border-bottom: 1px solid #ccc;
+    line-height: 0.8rem;
+    display: flex;
+}
+
+.navBar a {
+    flex: 1;
+    text-align: center;
+    color: #333;
+    font-size: .34rem;
+}
+
+.index .active {
+    color: #DD001B;
+}
+
+
+.index .top {
+    position: fixed;
+    z-index: 10;
+    top: 0;
+    left: 0;
+    width: 100%;
+}
